@@ -33,4 +33,4 @@ const CarSchema = new Schema<Car>(
     versionKey: false}
 )
 
-export const carModel = model('cars', CarSchema)
+export const CarModel = model('cars', CarSchema)
